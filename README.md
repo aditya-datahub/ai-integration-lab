@@ -56,3 +56,9 @@ print("Gemini Response:", ask_gemini(question))
 print("Groq Response:", ask_groq(question))
 ```
 ---
+
+## 🎯 Purpose
+This project was created as a hands-on experiment to explore how different AI models — Google Gemini and Groq (Llama) — respond to the same prompt.  
+It helps compare response quality, reasoning, and performance between models, making it a great mini-project for learning **AI model integration**, **API handling**, and **text generation**.
+
+---

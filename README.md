@@ -29,7 +29,7 @@ ai-integration-lab/
 1. **Clone this repo**
    ```bash
    git clone https://github.com/yourusername/ai-integration-lab.git
-   cd ai-integration-lab```
+   cd ai-integration-lab
 
 2. Install dependencies
    pip install google-generativeai groq
@@ -43,7 +43,7 @@ client = Groq(api_key="YOUR_GROQ_API_KEY")
 
 ## 💡 Usage Example
 
-from gemini_chat import ask_gemini
+```from gemini_chat import ask_gemini
 from groq_chat import ask_groq
 
 question = "Explain how AI works in simple terms."

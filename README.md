@@ -18,14 +18,14 @@ It’s designed as a simple lab to explore **multi-model integration**, **prompt
 ---
 
 ## 📁 Project Structure
-
+```
 ai-integration-lab/
 │
 ├── gemini_chat.py      # Script to interact with Google Gemini
 ├── groq_chat.py        # Script to interact with Groq (Llama)
 ├── main.py             # Runs both models for comparison
 └── README.md           # Project overview and usage guide
-
+```
 ---
 
 ## 🧰 Installation

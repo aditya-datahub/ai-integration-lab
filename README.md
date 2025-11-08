@@ -9,6 +9,13 @@ It’s designed as a simple lab to explore **multi-model integration**, **prompt
 
 ---
 
+## 🧰 Tech Stack
+- 🐍 **Python 3.10+**
+- 🤖 **Google Generative AI SDK** (`google-generativeai`)
+- ⚡ **Groq SDK** (`groq`)
+  
+---
+
 ## ⚙️ Features
 - 🧩 Connects with **Gemini API** using `google-generativeai`  
 - ⚡ Interacts with **Groq API** using the `groq` SDK  
@@ -56,6 +63,12 @@ question = "Explain how AI works in simple terms."
 print("Gemini Response:", ask_gemini(question))
 print("Groq Response:", ask_groq(question))
 ```
+---
+
+## 🧩 Sample Output
+Gemini Response: AI works by analyzing data and recognizing patterns to make predictions or generate text.
+Groq Response: Artificial Intelligence processes information and learns from examples to solve problems automatically.
+
 ---
 
 ## 🎯 Purpose

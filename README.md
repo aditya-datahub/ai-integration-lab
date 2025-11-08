@@ -32,12 +32,12 @@ ai-integration-lab/
    cd ai-integration-lab
 
 2. Install dependencies
-   ```bash
+   ```
    pip install google-generativeai groq
 
 3. Add your API keys
 Replace inside code:
-```bash
+
 genai.configure(api_key="YOUR_GEMINI_API_KEY")
 client = Groq(api_key="YOUR_GROQ_API_KEY")
 
